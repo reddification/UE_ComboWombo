@@ -1,0 +1,4 @@
+﻿#pragma once
+
+DECLARE_LOG_CATEGORY_EXTERN(LogCW, Log, Log)
+DECLARE_LOG_CATEGORY_EXTERN(LogCW_Attack, Log, Log)

@@ -1,5 +1,9 @@
+# Rider user specific files
+*.DotSettings.user
+
 # Visual Studio 2015 user specific files
 .vs/
+.idea/
 
 # Compiled Object files
 *.slo
@@ -40,7 +44,6 @@
 *.sdf
 *.VC.db
 *.VC.opendb
-.vsconfig
 
 # Precompiled Assets
 SourceArt/**/*.png
@@ -48,7 +51,8 @@ SourceArt/**/*.tga
 
 # Binary Files
 Binaries/*
-Plugins/**/Binaries/*
+Plugins/*/Binaries/*
+Plugins/GameFeatures/*/Binaries/*
 
 # Builds
 Build/*
@@ -69,7 +73,16 @@ Saved/*
 
 # Compiled source files for the engine to use
 Intermediate/*
-Plugins/**/Intermediate/*
+Plugins/*/Intermediate/*
+Plugins/Developer/RiderLink/**/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+.vsconfig
+
+/Content/Characters/UEFN_Mannequin/**
+Builds/*
+*.slnx
+/Content/Characters/Mannequins/Anims/Pistol
+/Content/Characters/Mannequins/Anims/Rifle
+/Content/FightingAnimsetPro
